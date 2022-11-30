@@ -41,6 +41,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:textSize="30dp"
+                    android:layout_margin="10dp"
                     android:text="Sign in"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -64,7 +65,8 @@
                 android:ems="10"
                 android:inputType="textEmailAddress"
                 android:text="Email"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"/>
 
             <EditText
                 android:id="@+id/editTextTextPassword"
@@ -74,7 +76,8 @@
                 android:ems="10"
                 android:inputType="textPassword"
                 android:text="Password"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"/>
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +98,9 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/radius"
                 android:backgroundTint="#7C9A92"
-                android:text="Button" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="Sing in" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -103,7 +108,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:padding="10dp"
-                android:text="TextView"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:text="Register"
                 android:textColor="@color/white" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -115,7 +122,9 @@
                 android:layout_marginRight="30dp"
                 android:background="@drawable/radius"
                 android:backgroundTint="#7C9A92"
-                android:text="Button" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="Профиль" />
         </LinearLayout>
 
     </LinearLayout>
