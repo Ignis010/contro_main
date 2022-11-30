@@ -22,17 +22,20 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:textColor="@color/white"
-           android:layout_gravity="center"
-            android:text="TextView" />
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:text="Привет" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="249dp"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:textColor="@color/white"
             android:layout_gravity="center"
-            android:text="TextView" />
+            android:layout_margin="15dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="Наслаждайся отборочными. Будь внимателен.                  Делай хорошо."
+            android:textColor="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button3"
@@ -43,7 +46,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
-            android:text="Button" />
+            android:textColor="@color/white"
+            android:text="Войти в аккаунт" />
 
         <TextView
             android:id="@+id/textView3"
@@ -51,6 +55,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:layout_gravity="center"
-            android:text="TextView" />
+            android:layout_marginTop="15dp"
+            android:text="Еще нет аккаунта? Зарегистрируйтесь" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
